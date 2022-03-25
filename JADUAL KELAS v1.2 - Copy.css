@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap')
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(19, 33, 53);
+}
+b
+{
+    font-size: 70px;
+    font-weight: 13;
+    color: rgb(138, 202, 245);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+b span
+{ 
+    transition: 0.5s;
+}
+b:hover span:nth-child(1)
+{
+    margin-right: 30px;
+
+}
+b:hover span:nth-child(2)
+{
+    margin-left: 80px;
+    opacity: 100;
+    transform: translateY(40px);
+}
+b:hover span
+{
+    color:#fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 100px #fff,
+                 0 0 120px #fff,
+
+}
+b:hover span
+{
+    transition: 0.5s;
+}
+table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(50, 111, 209);
+}
+b2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: rgb(25, 73, 117);
+}
+b2
+{
+    font-size: 90px;
+    font-weight: 2px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+b2 span
+{ 
+    transition: 0.10s;
+}
+b2:hover span:nth-child(1)
+{
+    margin-right: 30px;
+}
+b2 span:nth-child(1):before
+{
+    content: "";
+}
+b2:hover span
+{
+    background-color: rgb(22, 101, 175);
+    text-shadow: 0 0 10px #fff,
+
+                 0 0 120px rgb(0, 10, 70);
+}
+b3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2vh;
+    background: rgb(25, 73, 117);
+}
+b3
+{
+    font-size: 5em;
+    font-weight: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+b3 span
+{ 
+    transition: 0.10s;
+}
+b3:hover span:nth-child(1)
+{
+    margin-left: 30px;
+}
+b3 span:nth-child(1):before
+{
+    background-color:  #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 50px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+
+}
+b3:hover span
+{
+    color: #fff;
+    background-color:  #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 50px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+b
+{
+    background: rgb(14, 33, 58);
+    width: 120px;
+    height: 120px;
+    margin: 10 auto;
+    
+}
+b::before 
+{
+    width: 150px;
+    
+}
+b::after
+{
+    width: 250px;
+}
+table
+{
+    background: rgba(0,0,0,.3);
+
+}
+td
+{
+    background: rgb(7, 13, 22);
+}
+b4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2vh;
+    background: rgb(25, 73, 117);
+}
+b4
+{
+    font-size: 5em;
+    font-weight: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+b4 span
+{ 
+    transition: 0.10s;
+}
+b4:hover span:nth-child(1)
+{
+    margin-left: 30px;
+}
+b3 span:nth-child(1):before
+{
+    width: 1px;
+    height: 11000px;
+    background-color:  #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 50px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+b hover span:nth-child(3)
+{
+    transform: scaleZ(100px);
+}
+b3 span
+{ 
+    transition: 0.5s;
+}
+b3:hover span:nth-child(2)
+{
+    margin-left: 80px;
+    opacity: 100;
+    transform: translateY(40px);
+}
+b3:hover span
+{
+    color:rgb(41, 122, 214);
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #fff,
+                 0 0 50px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
